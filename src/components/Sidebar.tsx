@@ -32,7 +32,7 @@ export function Sidebar() {
         Cronograma de aulas
       </span>
 
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-8 mt-6">
         {data?.lessons.map((lesson) => {
           return (
             <Lesson
